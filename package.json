@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "discord.js": "^13.0.1",
+    "discord.js": "^13.17.1",
     "dotenv": "^16.0.3",
     "logger.js": "acrylic-style/logger.js"
   }

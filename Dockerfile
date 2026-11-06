@@ -10,7 +10,8 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the application files
-COPY . .
+COPY --chown=node:node . .
 
 # Run the application
+USER node
 CMD ["node", "index.js"]
